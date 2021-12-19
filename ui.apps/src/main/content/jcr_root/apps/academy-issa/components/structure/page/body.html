@@ -3,8 +3,12 @@
 <p data-sly-use.model="it.codeland.academy.core.models.Day13">
   Description: ${model.description}
 </p>
+
   <div
-          data-sly-resource="${'slider' @resourceType='/apps/academy-issa/components/content/slider'}"
+          data-sly-resource="${'dialog' @resourceType='/apps/academy-issa/components/content/testDialog'}"
+  ></div>
+  <div
+        data-sly-resource="${'slider' @resourceType='/apps/academy-issa/components/content/slider'}"
   ></div>
 
   <div class="row mt-3 productsList">
