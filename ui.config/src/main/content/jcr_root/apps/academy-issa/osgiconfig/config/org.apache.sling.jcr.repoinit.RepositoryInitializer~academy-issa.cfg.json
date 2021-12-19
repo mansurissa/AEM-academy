@@ -1,0 +1,10 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/academy-issa",
+        "create path (nt:unstructured) /content/dam/academy-issa/jcr:content",
+        "set properties on /content/dam/academy-issa/jcr:content",
+        "set cq:conf{String} to /conf/academy-issa",
+        "set jcr:title{String} to \"Academy Site\"",
+        "end"
+    ]
+}

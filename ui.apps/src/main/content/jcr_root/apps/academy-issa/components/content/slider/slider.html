@@ -1,0 +1,36 @@
+<sly data-sly-use.slideModel="it.codeland.academy.core.models.SliderModel"/>
+<div class="container" style="margin-top: 30px; background:gray; color:white; padding:4rem; text-align:center">
+  <div
+    id="carouselExampleIndicators"
+    class="carousel slide"
+    data-ride="carousel"
+  >
+
+    <div data-sly-list.slides="${slideModel.slides}" class="carousel-inner">
+
+      <div class="carousel-item ${slidesList.first?'active':''} ">
+        <h5>${slides}</h5>
+      </div>
+
+    </div>
+    <a
+      class="carousel-control-prev"
+      href="#carouselExampleIndicators"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="" aria-hidden="true"></span>
+      <span class="sr-only primary">Prev</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#carouselExampleIndicators"
+      role="button"
+      data-slide="next"
+    >
+      <span class="" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</div>

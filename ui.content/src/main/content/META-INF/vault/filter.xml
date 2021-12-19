@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/academy-issa" mode="merge"/>
+    <filter root="/content/academy-issa" mode="merge"/>
+    <filter root="/content/dam/academy-issa/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/academy-issa" mode="merge"/>
+</workspaceFilter>

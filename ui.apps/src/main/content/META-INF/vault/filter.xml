@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/academy-issa/clientlibs"/>
+    <filter root="/apps/academy-issa/components"/>
+    <filter root="/apps/academy-issa/templates"/>
+    <filter root="/apps/academy-issa/i18n"/>
+</workspaceFilter>
